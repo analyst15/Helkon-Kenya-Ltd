@@ -298,26 +298,6 @@ header .navbar {
 	max-height: 60px;
 }
 
-@media (min-width: 1440px) {
-	.navbar .logo img {
-		position: relative;
-		right: 100px;
-		max-height: 80px;
-	}
-	.sub-header ul.left-info li{
-		position: relative;
-		right: 100px;
-	}
-	.sub-header ul.right-icons{
-		position: relative;
-		left: 120px;
-	}
-	.navbar .navbar-nav .nav-item{
-		position: relative;
-		left: 120px;
-	}
-  }
-
 .navbar .navbar-brand h2 {
 	color: #fff;
 	text-transform: uppercase;
@@ -438,12 +418,19 @@ header .navbar {
 }
 
 .Modern-Slider .item-2 .img-fill {
+	background-image: url(../img/slide_2.jpg);
+}
+.Modern-Slider .item-3 .img-fill {
+	background-image: url(../img/slide_2.jpg);
+}
+
+/*.Modern-Slider .item-2 .img-fill {
 	background-image: url(../img/slide.jpg);
 }
 
 .Modern-Slider .item-3 .img-fill {
 	background-image: url(../img/slide_1.jpg);
-}
+}*/
 
 .Modern-Slider .NextArrow{
   position:absolute;
